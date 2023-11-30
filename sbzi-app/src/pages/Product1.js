@@ -11,7 +11,7 @@ if(props.Cat === Category){
 
   return (
     <>
-
+    <div className='container'style={{paddingLeft:"150px"}}>
       <div className='col-xl-3 col-lg-4 col-md-4 col-sm-6 col-xs-2'>
         <div className='card'>
           <div className='fill'>
@@ -27,7 +27,7 @@ if(props.Cat === Category){
           </div>
         </div>
       </div>
-
+    </div>
     </>
  
   )
